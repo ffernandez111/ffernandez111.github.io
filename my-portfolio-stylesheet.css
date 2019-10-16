@@ -1,3 +1,18 @@
-.my-bio{
-    font-size: 200px;
+header {
+    background-color: #ffffff;
+}
+
+h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+h2 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+li {
+font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+
 }
