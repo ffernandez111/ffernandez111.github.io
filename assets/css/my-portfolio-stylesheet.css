@@ -39,7 +39,7 @@ body{
 }
 
 nav ul li {
-    background-color:#999;
+    background-color: white;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
    
       
@@ -60,13 +60,16 @@ h2 {
     font-size: 200%;
 }
 
+.clear {
+clear: both;
+}
 #portfolio-image {
     float: left;
     margin-left: 20px;
     margin-right: 20px;
     border: 1px solid white;
     width: 200px;
-    height: 200px;   
+    height: auto;   
 }
 
 .bio {
