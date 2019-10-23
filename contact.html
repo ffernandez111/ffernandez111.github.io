@@ -1,87 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="assets/css/my-portfolio-stylesheet.css">
-    
-    <title>Contact Info</title>
+<!doctype html>
+<html lang="en-us">
 
-    
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Francisco A. Fernandez</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/my-portfolio-stylesheet.css">
 </head>
 
-<body class="body">
+<body>
 
-    <!-- Site Header -->
-    <header id="contact-header">
-    
+  <header id="masthead">
     <div class="container">
-        
-    <section>
-        
-            <h1 class="my-name">Francisco A. Fernandez</h1>
-
-            <nav class="links">
-                
-            
-            <ul>
-                <li class="links"><a href="index.html"> About</a></li>
-                <li class="links"><a href="portfolio.html"> Portfolio</a></li>
-                <li class="links"><a href="contact.html"> Contact</a></li>
-            </ul>
-            
-            </nav>
-        </section>     
-       
+      <a href="index.html" id="logo">Francisco A. Fernandez</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
+  </header>
 
-</header>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
-<!-- Contact Info -->
-    <div class="contact-info container">
-        
-        
-        <section>
-            
-            
-            <h3 class="contact info">Contact Info</h3>
-<form>
+      <form id="contact-form">
         <ul>
-<li>Name:</li>
-<br>
-<li>Email:</li>
-<br>
-<li>Message:</li>
-<br>
-
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
         </ul>
+        <input type="submit">
+      </form>
 
-<button class="submit"></button>
+    </section>
 
-</form>              
-        
+  </div>
 
-
-</section>
-    
-    <div class="clear"></div>
+  <footer>
+    <div class="container">
+      Copyright &copy; 
     </div>
-
-    <div id="footer">
-            <footer>&copy; Copyright 2019 Francisco Fernandez</footer>
-
-      </div>
-        
-
-
-
-
-        
-    
-
-    </div>
-
-    
+  </footer>
 </body>
+
 </html>
